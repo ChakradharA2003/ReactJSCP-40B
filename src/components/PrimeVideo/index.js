@@ -21,6 +21,7 @@ const PrimeVideo = props => {
         </div>
         <div className="category-movies-container">
           <h1 className="category-heading">Comedy Movies</h1>
+          <MovieSlider movieList={comedyMovies} />
         </div>
       </div>
     </div>
